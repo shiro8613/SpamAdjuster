@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "spamadjuster",
+  "version": "${version}",
+  "name": "SpamAdjuster",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/spamadjuster/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.shiro8613.spamadjuster.SpamAdjuster"
+    ]
+  },
+  "mixins": [
+    "spamadjuster.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
