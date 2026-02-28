@@ -31,7 +31,7 @@ public class ModConfig {
             properties.load(reader);
         }
 
-        increment = Integer.parseInt(properties.getProperty(SPAM_TH));
+        increment = Integer.parseInt(properties.getProperty(SPAM_IN));
         threshold = Integer.parseInt(properties.getProperty(SPAM_TH));
     }
 
